@@ -1,0 +1,170 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+
+/* .bg {
+	background:url(../img/gita.jpg) no-repeat center center;
+	background-color: #E32B2B;
+} */
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+.jumbotron{
+	background:url(../img/gita.jpg) no-repeat center center;
+	background-color: #e32b2b !important;
+}
+
+.tulisan{
+	padding-top: 41vh;
+	font-size: 5em;
+	line-height: 1.1em;
+}
+
+.bg-red{
+	background-color: #E32B2B;
+}
+
+.bg-black{
+	background-color: #10101c;
+}
+
+
+.bg-darker{
+	background-color: #171829;
+}
+
+.bg-light{
+	background-color: #FEF2F6;
+}
+
+.font-dark{
+	color: #24263D;
+}
+
+.font-light{
+	color: #FEF2F6;
+}
+
+.font-grey{
+	color: #575968;
+}
+
+.font-light-grey{
+	color: #c4c4c4;
+}
+
+.font-red{
+	color: #E32B2B;
+}
+
+.font-blue{
+	color: #01A3C9;
+}
+
+.font-yellow{
+	color: #F4C20D;
+}
+
+.section-1-tulisan{
+	z-index: 1;
+}
+
+
+.font-size-1{
+	font-size: 4rem;
+}
+
+.foto-gita{
+	/* float: right; */
+	/* max-width: 133.3vh; */
+	/* height: auto; */
+	z-index: -1;
+}
+
+.font-judul{
+	font-family: 'Playfair Display', serif;
+}
+
+.font-desc{
+    font-family: 'Raleway', sans-serif;
+}
+
+.section-2{
+	height: 70vh;
+}
+
+.judul-size{
+	font-size: 2rem;
+}
+
+.my-card:hover{
+	box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+}
+
+/** Responsive Layout **/
+@media (min-width: 992px) {
+	.col-md-1-5 { width: 20%; }
+	.col-md-2-5 { width: 40%; }
+	.col-md-3-5 { width: 60%; }
+	.col-md-4-5 { width: 80%; }
+	.col-md-5-5 { width: 100%; }
+  }
+  @media (min-width: 1200px) {
+	.col-lg-1-5 { width: 20%; }
+	.col-lg-2-5 { width: 40%; }
+	.col-lg-3-5 { width: 60%; }
+	.col-lg-4-5 { width: 80%; }
+	.col-lg-5-5 { width: 100%; }
+  }
+  @media (min-width: 200px) {
+	.col-sm-1-5 { width: 20%; }
+	.col-sm-2-5 { width: 40%; }
+	.col-sm-3-5 { width: 60%; }
+	.col-sm-4-5 { width: 80%; }
+	.col-sm-5-5 { width: 100%; }
+  }
+
+	.interest{
+		background-color:transparent !important;
+		z-index: 2 !important;
+	}
